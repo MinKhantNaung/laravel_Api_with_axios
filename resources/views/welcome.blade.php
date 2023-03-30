@@ -194,6 +194,8 @@
                         descList[i].innerHTML = description.value;
                     }
                 }
+                // for hiding modal
+                $('#editModal').modal('hide');
             })
             .catch(error => {
                 console.log(error);
